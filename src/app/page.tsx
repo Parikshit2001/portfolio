@@ -19,13 +19,17 @@ export default function Home() {
     },
     { title: "github", link: "https://github.com/Parikshit2001" },
   ];
-  const projects: projectInferface[] = [
+
+  const CurrentlyWorkingOn: projectInferface[] = [
     {
       title: "Chat Application",
       description:
         "A chat application made using nodeJs, React and drizzle ORM. Using websocket for realtime communication",
       link: "https://chat-app-psi-neon.vercel.app/",
     },
+  ];
+
+  const projects: projectInferface[] = [
     {
       title: "CDEX - Centralized decentralized exchanage",
       description: "Wallet as a Service - Manage your crypto wallet with ease",
@@ -130,6 +134,23 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </div>
+      <div>
+        <h1 className="text-4xl py-8">Currently Working on</h1>
+        <div className="flex flex-col space-y-8">
+          {CurrentlyWorkingOn.map((project) => (
+            <div key={project.title} className="flex flex-col space-y-1">
+              <Link
+                href={project.link}
+                target="_blank"
+                className="underline font-semibold text-lg"
+              >
+                {project.title}
+              </Link>
+              <p className="max-w-96">{project.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
