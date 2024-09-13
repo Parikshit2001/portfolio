@@ -19,6 +19,10 @@ export default function Home() {
     },
     { title: "github", link: "https://github.com/Parikshit2001" },
     { title: "Leetcode", link: "https://leetcode.com/u/parikshitgupta2001/" },
+    {
+      title: "resume",
+      link: "https://drive.google.com/file/d/1v4zPBaTp3aAfGe65h4vqQJRB1Ej2DLmQ/view?usp=drive_link",
+    },
   ];
 
   const CurrentlyWorkingOn: projectInferface[] = [
