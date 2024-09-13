@@ -87,9 +87,12 @@ export default function Home() {
     },
   ];
 
+  const imageURL =
+    "https://media.licdn.com/dms/image/v2/D5635AQG0NWkF-O8eHA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1721907852642?e=1726844400&v=beta&t=VHF_mmryUc1s7TTDmYZUTyn1t1aKL5dtrpDYaavYMFQ";
+
   return (
     <div className="bg-black text-white min-h-screen p-10">
-      <div className="flex pb-5">
+      <div className="flex pb-5 items-center">
         {socials.map((social, index) => (
           <div className="flex" key={index}>
             <Link
@@ -104,6 +107,9 @@ export default function Home() {
             ) : null}
           </div>
         ))}
+      </div>
+      <div className="hidden lg:block w-fit absolute right-[10vh] top-[4vh]">
+        <img src={imageURL} alt=""  className="rounded-full w-[15vh] h-[15vh]"/>
       </div>
       <div className="flex space-x-10">
         <div>
