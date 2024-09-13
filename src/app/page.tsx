@@ -43,7 +43,7 @@ export default function Home() {
     {
       title: "medium",
       description:
-        "A medium clone made with nextjs and tailwindcss with serverles backend deployed on cloudflare",
+        "A medium clone made with React in frontend, used hono library for writing serverless backend and tailwindcss with serverles backend deployed on cloudflare",
       link: "https://medium-fontend.vercel.app/",
     },
     {
