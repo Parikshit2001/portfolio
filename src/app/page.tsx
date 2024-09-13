@@ -18,6 +18,7 @@ export default function Home() {
       link: "https://www.linkedin.com/in/parikshit-gupta-dev/",
     },
     { title: "github", link: "https://github.com/Parikshit2001" },
+    { title: "Leetcode", link: "https://leetcode.com/u/parikshitgupta2001/" },
   ];
 
   const CurrentlyWorkingOn: projectInferface[] = [
