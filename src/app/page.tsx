@@ -52,6 +52,11 @@ export default function Home() {
         "Blogging website which let you publish and read blogs anonymously. Made with react, tailwindcss and used appwrite Baas",
       link: "https://fire-blog-abc.vercel.app/",
     },
+    {
+      title: "Open Source Contirbutions",
+      description: "",
+      link: "https://github.com/pulls?q=is%3Apr+author%3AParikshit2001+archived%3Afalse+is%3Aclosed",
+    },
   ];
 
   const smallProjects: projectInferface[] = [
@@ -109,7 +114,7 @@ export default function Home() {
         ))}
       </div>
       <div className="hidden lg:block w-fit absolute right-[10vh] top-[4vh]">
-        <img src={imageURL} alt=""  className="rounded-full w-[15vh] h-[15vh]"/>
+        <img src={imageURL} alt="" className="rounded-full w-[15vh] h-[15vh]" />
       </div>
       <div className="flex space-x-10">
         <div>
