@@ -136,6 +136,25 @@ export default function Home() {
         </div>
         <div>
           <h1 className="text-2xl py-8">small frontend projects</h1>
+          <div className="mb-5 border px-5">
+            <p>Website Clone</p>
+            <div className="flex justify-between">
+              <Link
+                href={"https://republic.com/avawatz"}
+                target="_blank"
+                className="underline font-semibold"
+              >
+                Original
+              </Link>
+              <Link
+                href={"https://avawatz-brown.vercel.app/"}
+                target="_blank"
+                className="underline font-semibold"
+              >
+                Clone
+              </Link>
+            </div>
+          </div>
           <div className="flex flex-col space-y-4">
             {smallProjects.map((project) => (
               <div key={project.title} className="flex flex-col space-y-1">
