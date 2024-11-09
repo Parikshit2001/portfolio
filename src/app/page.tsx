@@ -61,6 +61,11 @@ export default function Home() {
 
   const smallProjects: projectInferface[] = [
     {
+      title: 'restaurant-app',
+      description: "",
+      link: "https://restaurant-app-tan-three.vercel.app/user"
+    },
+    {
       title: "Travel Buddy",
       description: "",
       link: "https://parikshit2001.github.io/travel-website/",
