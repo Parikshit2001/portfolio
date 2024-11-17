@@ -61,7 +61,12 @@ export default function Home() {
 
   const smallProjects: projectInferface[] = [
     {
-      title: "outlook clone",
+      title: "Data Visualisation Assignment",
+      description: "",
+      link: "https://data-visualisation-brown.vercel.app",
+    },
+    {
+      title: "outlook Email Assignment",
       description: "",
       link: "https://outlook-clone-rho.vercel.app/",
     },
@@ -128,7 +133,7 @@ export default function Home() {
       </div>
       <div className="flex space-x-10">
         <div>
-          <h1 className="text-4xl py-8">projects</h1>
+          <h1 className="text-4xl py-8">Projects</h1>
           <div className="flex flex-col space-y-8">
             {projects.map((project) => (
               <div key={project.title} className="flex flex-col space-y-1">
@@ -145,7 +150,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <h1 className="text-2xl py-8">small frontend projects</h1>
+          <h1 className="text-2xl py-8">FrontEnd Projects</h1>
           <div className="mb-5 border px-5">
             <p>Website Clone</p>
             <div className="flex justify-between">
