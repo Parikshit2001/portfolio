@@ -66,12 +66,12 @@ export default function Home() {
       link: "https://data-visualisation-brown.vercel.app",
     },
     {
-      title: "outlook Email Assignment",
+      title: "Outlook Email Assignment",
       description: "",
       link: "https://outlook-clone-rho.vercel.app/",
     },
     {
-      title: "restaurant-app",
+      title: "Restaurant-App",
       description: "",
       link: "https://restaurant-app-tan-three.vercel.app/user",
     },
@@ -81,17 +81,17 @@ export default function Home() {
       link: "https://parikshit2001.github.io/travel-website/",
     },
     {
-      title: "landing page",
+      title: "Landing Page",
       description: "",
       link: "https://parikshit2001.github.io/landing-page/",
     },
     {
-      title: "Course explorer",
+      title: "Course Explorer",
       description: "",
       link: "https://cohort-web3.vercel.app/",
     },
     {
-      title: "Paytm clone",
+      title: "Paytm Clone",
       description: "",
       link: "https://paytm-frontend-omega.vercel.app/signin",
     },
@@ -101,7 +101,7 @@ export default function Home() {
       link: "https://parikshit2001.github.io/parallax-scrolling/",
     },
     {
-      title: "quiz app",
+      title: "Quiz App",
       description: "",
       link: "https://quiz-app-eta-eosin.vercel.app/",
     },
