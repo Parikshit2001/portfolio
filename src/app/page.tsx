@@ -61,11 +61,6 @@ export default function Home() {
 
   const smallProjects: projectInferface[] = [
     {
-      title: "Data Visualisation Assignment",
-      description: "",
-      link: "https://data-visualisation-brown.vercel.app",
-    },
-    {
       title: "Outlook Email Assignment",
       description: "",
       link: "https://outlook-clone-rho.vercel.app/",
@@ -167,6 +162,27 @@ export default function Home() {
                 className="underline font-semibold"
               >
                 Clone
+              </Link>
+            </div>
+          </div>
+          <div className="mb-5 border px-5">
+            <p>Data Visualisation Assignment</p>
+            <div className="flex justify-between">
+              <Link
+                href={
+                  "https://docs.google.com/document/d/1Tu--BAK0GytNLwpumpmBOhZ-cE855BRW79UXQ1NHxLY/edit?tab=t.0#heading=h.k275p91krp31"
+                }
+                target="_blank"
+                className="underline font-semibold"
+              >
+                Question
+              </Link>
+              <Link
+                href={"https://data-visualisation-brown.vercel.app"}
+                target="_blank"
+                className="underline font-semibold"
+              >
+                Solution
               </Link>
             </div>
           </div>
