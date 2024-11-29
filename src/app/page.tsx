@@ -66,6 +66,11 @@ export default function Home() {
       link: "https://outlook-clone-rho.vercel.app/",
     },
     {
+      title: "Moonex",
+      description: "",
+      link: "https://react-assignment-moonex.vercel.app/",
+    },
+    {
       title: "Restaurant-App",
       description: "",
       link: "https://restaurant-app-tan-three.vercel.app/user",
